@@ -1,6 +1,6 @@
 {
   "name": "novai-mcp-server",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Read-only Model Context Protocol server for querying the live NOVAI chain over its public JSON-RPC endpoint.",
   "type": "module",
   "license": "MIT",
@@ -39,5 +39,14 @@
     "@types/node": "^25.9.3",
     "tsx": "^4.22.4",
     "typescript": "^6.0.3"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/0x-devc/novai-mcp-server.git"
+  },
+  "homepage": "https://github.com/0x-devc/novai-mcp-server#readme",
+  "bugs": {
+    "url": "https://github.com/0x-devc/novai-mcp-server/issues"
+  },
+  "mcpName": "io.github.0x-devc/novai-mcp-server"
 }
